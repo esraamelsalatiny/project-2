@@ -1,98 +1,124 @@
-body{
+body {
     background: rgb(48, 46, 46);
     color: rgb(241, 231, 231);
 }
-.container{
+
+.container {
     margin: 10px 10px;
 }
 
-.nav-link{
-    color: black;
+.navbar {
+    background: linear-gradient(to left, rgba(255, 231, 16, 0.932) 10%, rgb(59, 56, 56) 90%);
+}
+
+.navbar-nav {
     font-size: larger;
 }
 
-h1{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-p{
-    text-align: center;
-}
-
-.hr{
-    background: linear-gradient(to left,rgb(59, 56, 56),rgb(255, 231, 16),rgb(59, 56, 56));
-    width: 50%;
-    height: 5px;
-    margin: auto;
-    border-radius: 20%;
-}
-.navbar{
-    background: linear-gradient(to left, rgba(255, 231, 16, 0.932) 10%,rgb(59, 56, 56) 90%);
-}
-
-.navbar ul a{
-    color: rgb(20, 19, 19);
-    font-family: 'Courier New', Courier, monospace;
-    transition: all 0.5s;
-}
-  
-.carousel-slide{
-background-attachment: fixed;
-}
-
-.navbar-brand img{
+.navbar-brand img {
     width: 50px;
     height: 10;
     border-radius: 50%;
 }
 
-.navbar ul a:hover{
-    background-color: rgb(20, 15, 15);
+.navbar ul a:hover {
+    background-color: rgba(255, 231, 16, 0.527);
     border-radius: 20px;
-    color:rgb(255, 255, 255);
+    color: black;
 }
 
-.nav-tabs{
-    background: linear-gradient(to left, rgba(255, 231, 16, 0.932) 10%, rgb(59, 56, 56) 90%);
-    margin: 20px auto;
+
+
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hr {
+    background: linear-gradient(to left, rgb(59, 56, 56), rgba(255, 231, 16, 0.377), rgb(59, 56, 56));
     width: 50%;
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px rgb(0, 0, 0);
-}
-
-
-.nav-tabs .nav-link{
-    color: white;
-}
-
-.tab-content img{
-    border: 1px solid black;
-    margin: 10px 10px;
-}
-
-@media (max-width : 600px){
-    .nav-tabs{
-        background-size: cover;
-    }
-}
-
-.aboutimg{
-    border-radius: 10px;
-    width: 400px;
-    
-}
-
-.hr .footer{
-    background: linear-gradient(rgb(255, 231, 16, 0.932), rgb(59, 56, 56),rgb(255, 231, 16, 0.932));
-    width: 90px;
     height: 5px;
     margin: auto;
     border-radius: 20%;
 }
 
+p {
+    text-align: center;
+}
+
+.carousel-slide {
+    background-attachment: fixed;
+}
 
 
+.nav-tabs {
+    background: linear-gradient(to left, rgba(255, 231, 16, 0.932) 10%, rgb(59, 56, 56) 90%);
+    margin: 10px 400px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    text-align: center;
+}
 
 
+.nav-tabs .nav-link {
+    color: white;
+    size: 50px;
+    font-weight: 700;
+}
 
+.tab-content img {
+    border: 1px solid black;
+    margin: 10px 10px;
+}
+
+@media (max-width : 768px) {
+    .nav-tabs {
+        background-size: cover;
+        margin: 5px 0px;
+    }
+
+    .aboutimg {
+        width: 70%;
+        display: block;
+        margin: auto auto;
+    }
+
+    #map{
+        width: 80%;
+        display: block;
+        margin: auto auto;
+    }
+}
+
+@media (min-width: 576px) {
+
+
+    .aboutimg {
+        width: 70%;
+        display: block;
+        margin: auto auto;
+    }
+
+    #map{
+        width: 80%;
+        display: block;
+        margin: auto auto;
+    }
+}
+
+@media (min-width: 1200px){
+.aboutimg {
+    width: 400px;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+}
+
+#footer1 {
+    background: linear-gradient(rgba(41, 41, 38, 0.932), rgb(59, 56, 56), rgba(255, 231, 16, 0.527));
+    width: 1320px;
+    height: 5px;
+    border-radius: 20%;
+    margin: 20px 0px;
+}

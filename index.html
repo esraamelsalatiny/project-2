@@ -21,7 +21,6 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-light">
     <a class="navbar-brand" href="#">
       <img src="./img/LOGOM.jpg" alt="">
-
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,19 +32,18 @@
         <li class="nav-item active">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">About Us<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Our Products
-          </a>
+            aria-haspopup="true" aria-expanded="false"> Our Products </a>
+
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Men Clothes</a>
+            <a class="dropdown-item" href="#">Women Clothes</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item" href="#">Children Clothes</a>
           </div>
         </li>
       </ul>
@@ -89,7 +87,7 @@
     </div>
     <div class="container mt-3">
       <div class="row">
-        <div class="col-lg-5">
+        <div class="col-lg-5 col-md-5 col-sm-5" >
           <div class="aboutimg">
             <img src="./img/LOGOM.jpg" class="img-fluid" alt="">
           </div>
@@ -122,42 +120,47 @@
     </div>
 
     <div class="container">
-      <ul class="nav nav-tabs justify-content-around" id="myTab" role="tablist">
-        <li class="nav-item" role="presentation">
-          <a class="nav-link active" id="men-tab" data-toggle="tab" href="#men" role="tab" aria-controls="men"
-            aria-selected="true">Men</a>
-        </li>
-        <li class="nav-item" role="presentation">
-          <a class="nav-link" id="women-tab" data-toggle="tab" href="#women" role="tab" aria-controls="women"
-            aria-selected="false">Women</a>
-        </li>
-        <li class="nav-item" role="presentation">
-          <a class="nav-link" id="children-tab" data-toggle="tab" href="#children" role="tab" aria-controls="children"
-            aria-selected="false">Children</a>
-        </li>
-      </ul>
+      <div class="col-lg-5 col-md-8">
+        
+
+        <ul class="nav nav-tabs justify-content-around" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="men-tab" data-toggle="tab" href="#men" role="tab" aria-controls="men"
+              aria-selected="true">Men</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="women-tab" data-toggle="tab" href="#women" role="tab" aria-controls="women"
+              aria-selected="false">Women</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="children-tab" data-toggle="tab" href="#children" role="tab" aria-controls="children"
+              aria-selected="false">Children</a>
+          </li>
+        </ul>
+      </div>
+
       <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade show active" id="men" role="tabpanel" aria-labelledby="men-tab">
           <div class="container">
             <div class="row">
-              <div class="col-md-4"> <img src="./img/men4.jpg" class="img-fluid" alt=""> </div>
-              <div class="col-md-4"> <img src="./img/men5.jpg" class="img-fluid" alt=""> </div>
-              <div class="col-md-4"> <img src="./img/men6.jpg" class="img-fluid" alt=""> </div>
-              <div class="col-md-4"> <img src="./img/men7.jpg" class="img-fluid" alt=""> </div>
-              <div class="col-md-4"> <img src="./img/men10.jpg" class="img-fluid" alt=""> </div>
-              <div class="col-md-4"> <img src="./img/men12.jpg" class="img-fluid" alt=""> </div>
+              <div class="col-lg-4 col-md-6"> <img src="./img/men4.jpg" class="img-fluid" alt=""> </div>
+              <div class="col-lg-4 col-md-6"> <img src="./img/men5.jpg" class="img-fluid" alt=""> </div>
+              <div class="col-lg-4 col-md-6"> <img src="./img/men6.jpg" class="img-fluid" alt=""> </div>
+              <div class="col-lg-4 col-md-6"> <img src="./img/men7.jpg" class="img-fluid" alt=""> </div>
+              <div class="col-lg-4 col-md-6"> <img src="./img/men10.jpg" class="img-fluid" alt=""> </div>
+              <div class="col-lg-4 col-md-6"> <img src="./img/men12.jpg" class="img-fluid" alt=""> </div>
             </div>
           </div>
         </div>
         <div class="tab-pane fade" id="women" role="tabpanel" aria-labelledby="women-tab">
           <div class="container">
             <div class="row">
-              <div class="col-md-4"> <img src="./img/women1.jpg" class="img-fluid" alt=""> </div>
-              <div class="col-md-4"> <img src="./img/women2.jpg" class="img-fluid" alt=""> </div>
-              <div class="col-md-4"> <img src="./img/women7.jpg" class="img-fluid" alt=""> </div>
-              <div class="col-md-4"> <img src="./img/women4.webp" class="img-fluid" alt=""> </div>
-              <div class="col-md-4"> <img src="./img/women11.webp" class="img-fluid" alt=""> </div>
-              <div class="col-md-4"> <img src="./img/women6.webp" class="img-fluid" alt=""> </div>
+              <div class="col-lg-4 col-md-6"> <img src="./img/women1.jpg" class="img-fluid" alt=""> </div>
+              <div class="col-lg-4 col-md-6"> <img src="./img/women2.jpg" class="img-fluid" alt=""> </div>
+              <div class="col-lg-4 col-md-6"> <img src="./img/women7.jpg" class="img-fluid" alt=""> </div>
+              <div class="col-lg-4 col-md-6"> <img src="./img/women4.webp" class="img-fluid" alt=""> </div>
+              <div class="col-lg-4 col-md-6"> <img src="./img/women11.webp" class="img-fluid" alt=""> </div>
+              <div class="col-lg-4 col-md-6"> <img src="./img/women6.webp" class="img-fluid" alt=""> </div>
             </div>
           </div>
         </div>
@@ -165,12 +168,12 @@
         <div class="tab-pane fade" id="children" role="tabpanel" aria-labelledby="children-tab">
           <div class="container">
             <div class="row">
-              <div class="col-md-4"> <img src="./img/child7.jpg" class="img-fluid" alt=""> </div>
-              <div class="col-md-4"> <img src="./img/child2.png" class="img-fluid" alt=""> </div>
-              <div class="col-md-4"> <img src="./img/child3.jpg" class="img-fluid" alt=""> </div>
-              <div class="col-md-4"> <img src="./img/child8.jpg" class="img-fluid" alt=""> </div>
-              <div class="col-md-4"> <img src="./img/child5.jpg" class="img-fluid" alt=""> </div>
-              <div class="col-md-4"> <img src="./img/child6.jpg" class="img-fluid" alt=""> </div>
+              <div class="col-lg-4 col-md-6"> <img src="./img/child7.jpg" class="img-fluid" alt=""> </div>
+              <div class="col-lg-4 col-md-6"> <img src="./img/child2.png" class="img-fluid" alt=""> </div>
+              <div class="col-lg-4 col-md-6"> <img src="./img/child3.jpg" class="img-fluid" alt=""> </div>
+              <div class="col-lg-4 col-md-6"> <img src="./img/child8.jpg" class="img-fluid" alt=""> </div>
+              <div class="col-lg-4 col-md-6"> <img src="./img/child5.jpg" class="img-fluid" alt=""> </div>
+              <div class="col-lg-4 col-md-6"> <img src="./img/child6.jpg" class="img-fluid" alt=""> </div>
             </div>
           </div>
         </div>
@@ -189,7 +192,7 @@
       <div class="row">
         <div class="col-lg-5">
           <div class="contactimg">
-            <img src="./img/map.gif" class="img-fluid" alt="">
+            <img src="./img/map.gif" class="img-fluid" id="map" alt="">
           </div>
         </div>
         <div class="col-lg-7">
@@ -218,22 +221,23 @@
       </div>
   </section>
 
+  <section>
+    <div class="hr" id="footer1"> </div>
+  </section>
+
   <section id="footer" class="mt-5">
 
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-5">
           <h2> About Us </h2>
           <p1> ACTIVE OFFERS ONE-STOP-SOLUTION TO ITS CUSTOMERS providing them design, development, sourcing,
             manufacturing
-            and retail at one door making it possible to outgrow new innovations and possibilities in our product.<br>
+            and retail at one door making it possible to outgrow new innovations and possibilities in our product.
 
-            We connect with our buyers to deliver our customers a unique product that they can rely and lure on.<br>
-
-            In the year 1997, ACTIVE became a part of the apparel manufacturing industry of India. In term of over a
-            decade, our company has developed rapidly and at the current moment employs more than 1000 employees at our
-            factory sites.</p1>
+            In the year 1997, ACTIVE became a part of the apparel manufacturing industry of India. </p1>
         </div>
+        <div class="col-md-1"></div>
         <div class="col-md-3">
           <h4> Help and Support </h4>
           <a href="#" class="alert-link">Shopping info</a><br>
@@ -249,12 +253,13 @@
           <a href="#" class="alert-link">Bouns points</a><br>
           <a href="#" class="alert-link">ATOME</a><br>
         </div>
-        <div class="hr" id="footer1"> </div>
 
-        <section id="rightid" class="mt-5">
-          <div class="container">
-            <p> ©2009-2021 SHEIN All Rights Reserved </p>
-          </div>
+        <section>
+          <div class="hr" id="footer1"> </div>
+        </section>
+
+        <section id="rightid">
+          <p> ©2009-2021 SHEIN All Rights Reserved </p>
         </section>
       </div>
     </div>
